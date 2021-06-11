@@ -1,0 +1,7 @@
+/target/
+/test-output/
+/reports/
+automation.out
+.classpath
+.project
+.settings/

@@ -1,0 +1,18 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionSuite" preserve-order="true" parallel="none" >
+
+	<listeners>
+		<listener class-name="com.ui.framework.reports.ExtentTestNGIReporterListener" />
+		<listener class-name="com.ui.framework.customListener.Listener" />
+	</listeners>
+
+	<test name="Tests">
+		<classes>
+			<!-- <class name="com.ui.framework.testcases.LoginTest" /> -->
+			<class name="com.ui.framework.testcases.FolderTest" />
+			<!-- <class name="com.ui.framework.testcases.UploadTest" /> -->
+		</classes>
+	</test>
+</suite>
